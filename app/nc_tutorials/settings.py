@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-from decouple import config import os
+from decouple import config
+import os
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -28,7 +29,7 @@ SECRET_KEY = 'django-insecure-(j-#aqq@vs$3l#0(031z4_h(_*pa&ye#dt&x69_@(&a6(=+fpg
 DEBUG = True
 
 ALLOWED_HOSTS = ['ec2-54-87-65-1.compute-1.amazonaws.com',
-                 '0.0.0.0', 'localhost', '127.0.0.1', ]
+                 '0.0.0.0', 'localhost', '127.0.0.1']
 
 
 # Application definition
